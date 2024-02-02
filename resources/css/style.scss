@@ -1,0 +1,297 @@
+$info-color: #3E3BBA;
+$danger-color: #dd1a1acf;
+$warning-color: #ee9018;
+$success-color: #3E3BBA;
+$menu-title-color:  #939398;
+$icon-color: #7a7a7e;
+$icon-sidebar-color: #d3d3d7;
+$icon-hover-color: #ffffffd8;
+$btn-background-color: #f2f4f4;
+$txt-color:  #f9f9f9;
+
+.sidebar-icons {
+    font-size: 15px;
+}
+
+.fa-minus-circle {
+    color: #dee0e1;
+}
+
+.text-ash {
+    color: #6c757d;
+}
+
+// .z__index .multiselect__content-wrapper {
+//     background-color: #4b49b7;
+// }
+
+// .z__index .multiselect__option {
+//     color: white;
+// }
+
+// .z__index .multiselect__option:hover {
+//     background-color:  #2c2a78;
+//     color: white;
+// }
+
+// .z__index .multiselect__option:active {
+//     background-color: #2c2a78;
+//     color:white;
+// }
+
+
+.table thead tr {
+    color: #000000e6;
+    background-color: rgb(248, 248, 248);
+    font-size: 0.65rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #e9ecef;
+    padding-left: 50px;
+}
+
+@media (min-width: 960px) {
+    .select_product_scroller {
+        height: 30vh;
+        overflow-y: auto;
+        border-radius: 5px;
+    }
+
+    .product-scroller {
+        height: 548px;
+        overflow-y: scroll;
+    }
+}
+
+@media (min-width: 1400px) {
+    .select_product_scroller {
+        height: 46vh;
+        overflow-y: auto;
+        border-radius: 5px;
+    }
+
+    .product-scroller {
+        height: 805px;
+        overflow-y: scroll;
+    }
+}
+
+@media (max-width: 960px) {
+    .select_product_scroller {
+        height: 20px;
+        overflow-y: auto;
+        border-radius: 5px;
+    }
+
+    .product-scroller {
+        height: 595px;
+        overflow-y: scroll;
+    }
+}
+
+.horizontal-btn-scroller {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.function-bar-btn {
+    height: 11vh;
+    display: flex;
+    align-items: center;
+}
+
+.content-margin {
+    margin-top: -40px;
+}
+
+.content-margin2 {
+    margin-top: -70px;
+}
+
+.customer-btn {
+    background-color: $btn-background-color;
+    color: $info-color;
+
+    &:hover {
+        background-color: $info-color;
+        color: $txt-color;
+    }
+}
+
+.clear-btn {
+    background-color: $btn-background-color;
+    color: $danger-color;
+
+    &:hover {
+        background-color: $danger-color;
+        color: $txt-color;
+    }
+}
+
+.hold-btn {
+    background-color: $warning-color;
+    color: $txt-color;
+
+    &:hover {
+        background-color: darken($warning-color, 10%);
+        color: $txt-color;
+    }
+}
+
+.discount-btn {
+    background-color: $btn-background-color;
+    color: $warning-color;
+
+    &:hover {
+        background-color: $warning-color;
+        color: $txt-color;
+    }
+}
+
+.done-btn {
+    background-color: $success-color;
+    color: $txt-color;
+
+    &:hover {
+        background-color: darken($success-color, 10%);
+        color: $txt-color;
+    }
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    overflow: hidden;
+}
+
+.image-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.menu-title-copy {
+    color: $menu-title-color;
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-left: 5px;
+}
+
+.menu-icon-copy i {
+    font-size: 1.8rem;
+    color: $icon-color;
+    margin-left: 5px;
+}
+
+// .menu-item {
+//     &:hover {
+//         .menu-icon-copy i {
+//             color: $icon-sidebar-color;
+
+//         }
+
+//         .menu-title-copy {
+//             color: $txt-color;
+//         }
+//     }
+// }
+
+
+
+.menu-item.active {
+    .menu-icon-copy i {
+        color: white;
+    }
+
+    .menu-title-copy {
+        color: white;
+    }
+
+    background: linear-gradient(to right,  #3E3BBA,#d7ddde,);
+    background-color: rgba(252, 251, 255, 0.8);
+    border-radius: 10%;
+
+}
+
+
+.square-clear-button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    font-size: 20px;
+    color: #333;
+    border-radius: 5px;
+}
+
+.square-clear-button:hover {
+    background-color: #280f0f;
+    cursor: pointer;
+}
+
+.form-control-sm {
+    height: 30px;
+    font-size: 12px;
+}
+
+tr {
+    white-space: nowrap;
+}
+
+// multiselect
+.multiselect,
+.multiselect__input,
+.multiselect__single {
+    font-size: 0.96rem;
+    color:#4b49b7;
+}
+
+.multiselect__single {
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.multiselect__tags {
+    min-height: 0;
+    padding: 0;
+}
+
+.multiselect__placeholder {
+    margin-bottom: 0.6rem;
+    padding-top: 0.6rem;
+    padding-left: 0.75rem;
+}
+
+.multiselect {
+    min-height: 0;
+}
+
+.multiselect__select {
+    height: 2.2rem;
+
+}
+
+.z__index .multiselect__option {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+
+  .z__index .multiselect__option:hover {
+    background-color: #232176;
+    color: white;
+  }
+
+  .z__index .multiselect__option:active {
+    background-color: #1d1c60;
+    color: white;
+  }
