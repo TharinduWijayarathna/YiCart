@@ -39,7 +39,7 @@ const submit = () => {
         </div>
 
         <div class="text-center">
-            <img src="../../../src/logo/logo_b.png" alt="" height="100">
+            <img src="../../../src/logo/logo_b.png" alt="" height="45" class="mt-4 mb-4">
         </div>
 
         <form @submit.prevent="submit">

@@ -5,7 +5,7 @@
 
         <div class="aside-logo flex-column-auto mt-2 mb-2" id="kt_aside_logo">
             <a :href="route('dashboard')">
-                <img alt="Logo" src="../../../src/logo/logo_sidebar.png" class="h-70px logo" />
+                <img alt="Logo" src="../../../src/logo/logo_sidebar.png" class="h-30px logo" />
             </a>
         </div>
 
