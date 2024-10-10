@@ -1,4 +1,3 @@
-
 /* Icons */
 @import 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css';
 @import '../src/assets/css/style.bundle.css';
@@ -9,6 +8,26 @@
 
 @import url('./style.scss');
 
+#kt_aside {
+    background-color: rgb(68, 55, 55) !important;
+}
+
+main {
+    background-color: rgb(68, 55, 55) !important;
+}
+
+.aside .aside-logo {
+    background-color: rgb(68, 55, 55) !important;
+}
+
+.kt_header {
+    background-color: rgb(68, 55, 55) !important;
+}
+
+#nav_container {
+    background-color: rgb(214, 214, 214) !important;
+    color: white !important;
+}
 
 /* @tailwind base; */
 /* @tailwind components; */

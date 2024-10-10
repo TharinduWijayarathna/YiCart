@@ -9,9 +9,9 @@
             </a>
         </div>
 
-        <div class="aside-menu flex-column-fluid" id="kt_aside_menu">
+        <div class="flex-column-fluid" id="kt_aside_menu">
             <!--begin::Aside Menu-->
-            <div class="hover-scroll-y my-2 my-lg-5 scroll-ms" id="kt_aside_menu_wrapper" data-kt-scroll="true"
+            <div class="my-lg-5 scroll-ms" id="kt_aside_menu_wrapper" data-kt-scroll="true"
                 data-kt-scroll-height="auto" data-kt-scroll-dependencies="#kt_aside_logo, #kt_aside_footer"
                 data-kt-scroll-wrappers="#kt_aside, #kt_aside_menu" data-kt-scroll-offset="5px">
 
