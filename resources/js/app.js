@@ -13,7 +13,7 @@ import { ZiggyVue } from "../../vendor/tightenco/ziggy/dist/vue.m";
 import laravelPermissionToVuejs from "laravel-permission-to-vuejs";
 import VueApexCharts from "vue3-apexcharts";
 
-const appName = " M Mobile ";
+const appName = " Horizon POS ";
 
 createInertiaApp({
     title: (title) => `${title} - ${appName}`,

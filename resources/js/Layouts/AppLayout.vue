@@ -1,5 +1,5 @@
 <template>
-    <Head :title="title ? title : 'M Mobile'">
+    <Head :title="title ? title : 'Horizon POS'">
         <link rel="icon" type="image/jpg" href="/logo/logo_favicon.jpg">
         <slot name="meta_head" />
     </Head>
