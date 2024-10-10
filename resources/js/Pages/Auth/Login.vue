@@ -74,7 +74,7 @@ const submit = () => {
                 Forgot your password?
                 </Link>
 
-                <PrimaryButton class="ml-4 " style="background-color: #4b49b7;"
+                <PrimaryButton class="ml-4 " style="background-color: #443737;"
                     onmouseover="this.style.backgroundColor='#1f1e61'; this.style.cursor='pointer';"
                     onmouseout="this.style.backgroundColor='#1f1e61';" :class="{ 'opacity-25': form.processing }"
                     :disabled="form.processing">

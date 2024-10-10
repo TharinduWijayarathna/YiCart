@@ -170,7 +170,7 @@
                                         <div class="col-4 g-1 py-3" id="clear" @click="handleClearClick">C</div>
                                     </div>
                                 </div>
-                                <div class="col-3 equal " @click="handleResultClick" style="background-color:#4b49b7 ;">
+                                <div class="col-3 equal " @click="handleResultClick" style="background-color:#443737 ;">
                                     <div class="row h-100 d-flex align-items-center justify-content-center">
                                         <div class="col-12 " id="result">=</div>
                                     </div>
